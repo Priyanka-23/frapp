@@ -1,0 +1,141 @@
+<html>
+<head>
+
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><div class="container-fluid">
+
+
+<style>
+.radio{
+color:white;
+
+}
+
+
+
+
+#t2{
+background-color:black;
+border:10px solid white;
+padding:40px;
+border-radius:20px;
+}
+input[type=file]{
+width:300px;
+
+}
+#t6{
+margin-top:20px;
+background-color:black;
+margin-left:20px;
+
+padding:40px;
+}
+
+datalist{
+color:black;
+}
+label{
+color:white;
+}
+input[type=radio]{
+color:white;
+}
+</style>
+</head>
+<body>
+
+<div class="container-fluid" id="t6">
+	<div class="row">
+		<div class="col-md-6" >
+			<form id="t2">
+				<div class="form-group">
+					 
+					<label for="exampleInputEmail1">
+						Upload your id's front copy
+					</label>
+					<input type="file" class="form-control" id="exampleInputEmail1" required />
+				</div>
+				<div class="form-group">
+					 
+					<label for="exampleInputPassword1">
+						Upload your id's back copy
+					</label>
+					<input type="file" class="form-control" id="exampleInputPassword1" required/>
+				</div>
+				<div class="radio">
+					 
+					
+					<label>	<input type="radio" value="Male" /> Male </label>
+						
+						<label> <input type="radio" value="Female"/> Female </label>
+							
+					       <label><input type="radio" value="Others"/> Others </label>
+					
+				</div> 
+				<div class="form-group">
+					 
+					<label for="exampleInputlist">
+					  	College Name
+					</label>
+					
+					<input list="colleges" name="cities" required>
+					<datalist id="colleges">
+					<option value="Kalindi College, University of delhi">
+    				        	<option value="Sharda University, Greater Noida delhi-NCR">
+   				 	<option value="SRCC,University of delhi">
+    					<option value="HINDU COLLEGE">
+    					<option value="ALIGARH MUSLIM UNIVERSITY">
+					<option value="VINOVA BHAVE UNIVERSITY">
+					<option value="IIM, ahmedabad">
+					<option value="IIT, madras">
+					<option value="IIT,bombay">
+					<option value="NIT, sholan">
+					<option value="MNIT,allahabad">
+					<option value="IIM, bangalore">
+					<option value="AMITY UNIVERSITY, Greater Noida">
+					<option value="AMITY UNIVERSITY, Greater ">	
+					<option value="IIM, bangalore">
+					<option value="RV, bangalore">
+					<option value="VIT, Vellore">
+					<option value="IIM, kolkata">
+<option value="IIT, Dhanbad">
+<option value="IIT, Roorkee">
+<option value="IIT, GUHAWATI">
+<option value="BHU, Banaras">
+<option value="HANSRAJ COLLEGE, UNIVERSITY OF DELHI">
+<option value="PGDAV, UNIVERSITY OF DELHI">
+<option value="IIM, bangalore">
+
+<option value="Galgotia university, Greater Noida">
+<option value="G L Bajaj university, Greater Noida">
+
+
+</div>
+				
+				<button type="submit" class="btn btn-primary">
+					Submit
+				</button>
+			</form>
+		</div>
+		<div class="col-md-6">
+			<img src="login.png" class="p">
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
